@@ -1,0 +1,6 @@
+VLAN  Mac Address        Interface  IfIndex     Status
+----  -----------------  ---------  -------  ------------
+   1  00:0D:88:68:8C:3F   1/1       1        Learned
+   1  00:0D:88:68:8D:A1   1/10      10       Learned
+   1  00:0D:88:68:8D:A3   1/2       2        Learned
+   1  00:80:63:CB:A7:00   4/1       57       Management
