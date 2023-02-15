@@ -110,6 +110,7 @@ using regular expressions. '''
 
 import re
 def validate_mac(mac_address):
+    # regex = "[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}"
     regex = r"[^0][0-f]{2}:[^0][0-f]{2}:[^0][0-f]{2}:[^0][0-f]{2}:[^0][0-f]{2}:[^0][0-f]{2}"
     if re.search(regex, mac_address) != None:
         print("Valid")
